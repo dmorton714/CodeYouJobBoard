@@ -125,6 +125,6 @@ aside a:hover {
 footer {
     text-align: center;
     padding: 20px;
-    color: var(--bg-blue);
+    color: var(--b-blue);
     font-size:  0.9em;
 }
