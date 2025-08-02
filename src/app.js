@@ -6,6 +6,7 @@ require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+// Adding comment for test commit.
 
 // Set EJS as the template engine
 app.set('view engine', 'ejs');
