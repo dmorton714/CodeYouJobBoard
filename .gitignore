@@ -113,3 +113,6 @@ sessions/
 *.p12
 *.pfx
 config/secrets.json
+
+
+.vs/
