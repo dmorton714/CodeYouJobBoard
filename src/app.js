@@ -16,7 +16,6 @@ app.get('/', (req, res) => {
 });
 
 // API endpoint for Google Sheets
-// app.get('/api/sheet', googleSheetsApi.fetchSheetData);
 app.get('/api/sheet', async (req, res) => {
   const spreadsheetId = process.env.XLSX_ID;
   const API_KEY = process.env.Google_API_KEY;
