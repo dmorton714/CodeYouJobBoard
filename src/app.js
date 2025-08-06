@@ -5,7 +5,7 @@ require('dotenv').config();
 const googleSheetsApi = require('./googleSheetsApi');
 
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 
 // Debug: Check if environment variables are loaded
 console.log('API Key loaded:', process.env.Google_API_KEY ? 'YES' : 'NO');
