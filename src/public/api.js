@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   fetchBtn.addEventListener('click', async function() {
     try {
-      resultDiv.textContent = 'Loading...';
+      // resultDiv.textContent = 'Loading...';
       
       const response = await fetch('/api/sheet');
       const data = await response.json();

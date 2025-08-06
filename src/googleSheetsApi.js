@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 const fetchSheetData = async (req, res) => {
-  const spreadsheetId = process.env.Google_spreadsheetId;
+  const spreadsheetId = process.env.XLSX_ID;
   const API_KEY = process.env.Google_API_KEY;
   
   console.log('Using API Key:', API_KEY ? 'Found' : 'Missing');
