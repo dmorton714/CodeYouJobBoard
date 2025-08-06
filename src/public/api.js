@@ -1,14 +1,12 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   const fetchBtn = document.getElementById('fetchBtn');
   const resultDiv = document.getElementById('result');
 
-  fetchBtn.addEventListener('click', async function() {
+  fetchBtn.addEventListener('click', async function () {
     try {
-      // resultDiv.textContent = 'Loading...';
-      
       const response = await fetch('/api/sheet');
       const data = await response.json();
-      
+
       if (response.ok) {
         resultDiv.textContent = JSON.stringify(data, null, 2);
       } else {
@@ -16,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     } catch (error) {
       resultDiv.textContent = 'Error: ' + error.message;
+      console.error('API error:', error);
     }
   });
 });
