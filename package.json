@@ -5,6 +5,25 @@
     "express": "^5.1.0",
     "express-ejs-layouts": "^2.5.1",
     "fs": "^0.0.1-security",
+    "nodemon": "^3.1.10",
     "path": "^0.12.7"
-  }
+  },
+  "name": "codeyoujobboard",
+  "description": "## Update with instructions on how to run the project etc as we go",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmorton714/CodeYouJobBoard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmorton714/CodeYouJobBoard/issues"
+  },
+  "homepage": "https://github.com/dmorton714/CodeYouJobBoard#readme"
 }
