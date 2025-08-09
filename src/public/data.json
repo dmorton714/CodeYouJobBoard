@@ -10,7 +10,7 @@
     "Location",
     "Deactivate?"
   ],
-    "range": "JobBoard!A1:I10",
+  "range": "JobBoard!A1:I10",
   "majorDimension": "COLUMNS",
   "values": [
     [
